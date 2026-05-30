@@ -49,18 +49,6 @@ chmod +x Subdomain_enum.sh
 
 Enter the target domain when prompted.
 
->> Output Structure
-
-recon/
-└── target-domain/
-    ├── subfinder_output.txt
-    ├── amass_output.txt
-    ├── asset_output.txt
-    ├── final_subdomains.txt
-    ├── alive_subdomains.txt
-    └── final_output_with_ip.txt
-
-
 >> Skills Demonstrated
 
 * Bash Scripting
