@@ -34,8 +34,10 @@ This project automates passive subdomain enumeration by integrating multiple dat
 
 >> Installation
 
-git clone https://github.com/Yogendra9982/SubDomain_Enumeration.git
+git clone https://github.com/Yogendra9982/SubDomain_Enumeration.git 
+
 cd  SubDomain_Enumeration
+
 chmod +x Subdomain_enum.sh
 
 
