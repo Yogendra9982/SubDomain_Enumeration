@@ -51,7 +51,6 @@ Enter the target domain when prompted.
 
 >> Output Structure
 
-text
 recon/
 └── target-domain/
     ├── subfinder_output.txt
