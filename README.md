@@ -2,12 +2,11 @@
 >> Advanced Subdomain Enumerator
 
 A powerful Bash-based reconnaissance automation tool that streamlines the process of subdomain discovery, live host identification, and DNS resolution. The tool combines multiple industry-standard reconnaissance utilities to improve asset coverage and reduce manual effort during the information-gathering phase of security assessments.
-
->> Overview
+## Overview
 
 This project automates passive subdomain enumeration by integrating multiple data sources and consolidating results into a single workflow. It helps security researchers, penetration testers, and bug bounty hunters efficiently identify attack surfaces associated with a target domain.
 
->> Features
+## Features
 
 * Multi-source passive subdomain enumeration
 * Automated result aggregation and deduplication
@@ -16,7 +15,7 @@ This project automates passive subdomain enumeration by integrating multiple dat
 * Organized output management
 * Lightweight and easy-to-use Bash implementation
 
->> Tools Integrated
+## Tools Integrated
 
 * Subfinder
 * Amass
@@ -24,7 +23,7 @@ This project automates passive subdomain enumeration by integrating multiple dat
 * Httprobe
 * Dig
 
->> Workflow
+## Workflow
 
 1. Collect subdomains from multiple passive sources.
 2. Merge and remove duplicate results.
@@ -32,20 +31,19 @@ This project automates passive subdomain enumeration by integrating multiple dat
 4. Resolve discovered assets to IP addresses.
 5. Store all results in a structured directory for further analysis.
 
->> Installation
-
+## Installation
+```
 git clone https://github.com/Yogendra9982/SubDomain_Enumeration.git 
 
 cd  SubDomain_Enumeration
 
 chmod +x Subdomain_enum.sh
-
+```
 
 >> Usage
-
-  bash
+```
 ./Subdomain_enum.sh
-
+```
 
 Enter the target domain when prompted.
 
